@@ -177,6 +177,8 @@ li:hover {
 #display-shape {
   flex: 1; /* Takes up 50% of the available width */
   background-color: #969696; /* Optional: Add background color to visualize the shape */
+  width: 80vh;
+  height: 80vh;
   /* Add any other styling needed for your shape */
 }
 
