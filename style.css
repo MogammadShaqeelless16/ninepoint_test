@@ -120,25 +120,43 @@ li:hover {
 
 /* Second section */
 /* Section 2 styling */
+/* Section 2 styling */
 .section-2 {
   display: flex;
-  align-items: center;
+  align-items: center; /* Vertically centers items in the section */
+  padding: 20px;
   background-color: #f4f4f4; /* Optional: Adds background color for better visibility */
-  height: 100vh;
 }
 
 #display-shape {
-  height: 80vh;
-  width: 50vh;
+  flex: 1; /* Takes up 50% of the available width */
+  background-color: #ddd; /* Optional: Add background color to visualize the shape */
+  /* Add any other styling needed for your shape */
 }
 
 #second-content {
-  flex: 2; /* Takes up available space on the right */
-  margin-left: 20px; /* Adds space between shape and content */
+  flex: 1; /* Takes up 50% of the available width */
+  margin-left: 20px; /* Adds space between the shape and the text content */
 }
 
 #second-content h4, #second-content h3, #second-content p {
   margin: 0 0 10px; /* Adds space below each element */
+}
+
+/* Ensure button is styled and positioned correctly */
+.link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Adjust as needed */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.link:hover {
+  background-color: #4d4d4d; /* Adjust as needed */
 }
 
 
