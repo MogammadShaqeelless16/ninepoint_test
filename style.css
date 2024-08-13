@@ -212,6 +212,7 @@ li:hover {
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
+  height: 100vh;
 }
 
 .section-4 > select {
@@ -281,6 +282,7 @@ li:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 5rem;
+  height: 100vh;
 }
 
 .action-card {
@@ -299,7 +301,7 @@ li:hover {
 
 /* Sixth section */
 .section-6 {
-  height: 80%;
+  height: 100vh;
 }
 
 #master-square {
