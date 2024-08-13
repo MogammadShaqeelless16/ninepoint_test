@@ -124,13 +124,13 @@ li:hover {
 .section-2 {
   display: flex;
   align-items: center; /* Vertically centers items in the section */
-  padding: 20px;
   background-color: #f4f4f4; /* Optional: Adds background color for better visibility */
+  height: 100vh; /* Optional: Makes sure the section takes full viewport height */
 }
 
 #display-shape {
   flex: 1; /* Takes up 50% of the available width */
-  background-color: #ddd; /* Optional: Add background color to visualize the shape */
+  background-color: #969696; /* Optional: Add background color to visualize the shape */
   /* Add any other styling needed for your shape */
 }
 
@@ -147,7 +147,7 @@ li:hover {
 .link {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #007bff; /* Adjust as needed */
+  background-color: #969696; /* Adjust as needed */
   color: white;
   border: none;
   border-radius: 5px;
@@ -162,12 +162,11 @@ li:hover {
 
 /* Third section */
 /* Section 3 styling */
-/* Section 3 styling */
 .section-3 {
   display: flex;
   align-items: center; /* Vertically centers items in the section */
-  padding: 20px;
   background-color: #eaeaea; /* Optional: Adds background color for better visibility */
+  height: 100vh; /* Optional: Makes sure the section takes full viewport height */
 }
 
 #third-content {
@@ -177,19 +176,20 @@ li:hover {
 
 #display-shape {
   flex: 1; /* Takes up 50% of the available width */
-  background-color: #ddd; /* Optional: Add background color to visualize the shape */
+  background-color: #969696; /* Optional: Add background color to visualize the shape */
   /* Add any other styling needed for your shape */
 }
 
 .text-content {
-  margin-bottom: 20px; /* Adds space below the text content */
+  margin-bottom: 20px;
+  color: #969696; /* Adds space below the text content */
 }
 
 /* Ensure button is styled and positioned correctly */
 .link {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #007bff; /* Adjust as needed */
+  background-color: #969696; /* Adjust as needed */
   color: white;
   border: none;
   border-radius: 5px;
