@@ -74,7 +74,7 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgb(243, 234, 234);
+  background-color: #e2e2e2;
   color: darkslategrey;
   border-bottom: 0.25rem grey dashed;
   min-height: 100vh;
@@ -258,6 +258,36 @@ section {
   text-align: center;
   color: white;
 }
+
+/* Default styles for the header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+header img {
+  height: 50px;
+  transition: filter 0.3s ease;
+}
+
+/* Default SVG icon color */
+header img svg {
+  fill: black;
+}
+
+/* Hover effect for the header */
+header:hover {
+  background-color: black;
+}
+
+header:hover img {
+  filter: invert(1);
+}
+
 
 /* Media Queries for Mobile Responsiveness */
 @media (max-width: 768px) {
