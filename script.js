@@ -24,14 +24,16 @@ document.addEventListener('DOMContentLoaded', function () {
     const overlay = document.getElementById('overlay');
     const overlayText = document.getElementById('overlay-text');
     const closeButton = document.getElementById('close-overlay');
-    
+  
     selectElement.addEventListener('change', function () {
       const selectedOption = selectElement.options[selectElement.selectedIndex].text;
-      overlayText.textContent = selectedOption;
-      overlay.classList.remove('hidden'); // Show the overlay
+      if (selectedOption) { // Only show overlay if an option is selected
+        overlayText.textContent = selectedOption;
+        overlay.classList.remove('hidden'); // Show the overlay
+      }
     });
-    
+  
     closeButton.addEventListener('click', function () {
       overlay.classList.add('hidden'); // Hide the overlay
     });
-});
+  });
