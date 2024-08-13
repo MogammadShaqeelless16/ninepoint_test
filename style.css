@@ -119,33 +119,54 @@ li:hover {
 }
 
 /* Second section */
-.section-2,
-.section-3 {
-  padding: 2rem;
+/* Section 2 styling */
+.section-2 {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4; /* Optional: Adds background color for better visibility */
 }
 
 #display-shape {
-  height: 30rem;
-  width: 30rem;
-  background-color: grey;
+  flex: 1; /* Takes up available space on the left */
+  background-color: #ddd; /* Optional: Add background color to visualize the shape */
+  /* Add any other styling needed for your shape */
 }
 
 #second-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 35rem;
-  font-size: 1.5rem;
+  flex: 2; /* Takes up available space on the right */
+  margin-left: 20px; /* Adds space between shape and content */
 }
 
-/* Third section */
-#third-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 35rem;
-  font-size: 1.5rem;
+#second-content h4, #second-content h3, #second-content p {
+  margin: 0 0 10px; /* Adds space below each element */
 }
+
+
+/* Third section */
+/* Section 3 styling */
+.section-3 {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #eaeaea; /* Optional: Adds background color for better visibility */
+}
+
+#third-content {
+  flex: 2; /* Takes up available space on the left */
+  margin-right: 20px; /* Adds space between content and shape */
+}
+
+#display-shape {
+  flex: 1; /* Takes up available space on the right */
+  background-color: #ddd; /* Optional: Add background color to visualize the shape */
+  /* Add any other styling needed for your shape */
+}
+
+#third-content h4, #third-content h3, #third-content p {
+  margin: 0 0 10px; /* Adds space below each element */
+}
+
 
 /* Fourth section */
 .section-4 {
