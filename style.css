@@ -128,9 +128,9 @@ li:hover {
 }
 
 #display-shape {
-  flex: 1; /* Takes up available space on the left */
-  background-color: #ddd; /* Optional: Add background color to visualize the shape */
-  /* Add any other styling needed for your shape */
+  height: 15rem;
+  width: 30rem;
+  background-color: grey;
 }
 
 #second-content {
