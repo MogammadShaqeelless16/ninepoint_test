@@ -91,6 +91,10 @@ li:hover {
   font-size: 1.45rem;
 }
 
+.bold-heading {
+  font-weight: bold;
+}
+
 /* First section */
 .section-1 {
   display: flex;
@@ -116,6 +120,7 @@ li:hover {
 .section-1 p {
   max-width: 800px; /* Optional: Limits the width of the text block for better readability */
   line-height: 1.6; /* Optional: Adjusts line height for better readability */
+  color: #969696; /* Adds space below the text content */
 }
 
 /* Second section */
