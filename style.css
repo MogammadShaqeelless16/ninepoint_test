@@ -73,8 +73,8 @@ li:hover {
 
 .link,
 .action-link {
-  background-color: gray;
-  color: white;
+  background-color: white;
+  color: grey;
   border: 0;
   border-radius: 10px;
   height: 2rem;
@@ -310,6 +310,7 @@ li:hover {
 /* Sixth section */
 .section-6 {
   height: 100vh;
+  padding: 80px;
 }
 
 #master-square {
