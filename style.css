@@ -1,0 +1,293 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#menu-toggle {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+#menu-icon,
+#close-icon {
+  font-size: 24px;
+  color: #333;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.invisible {
+  display: none;
+}
+
+.nav-section {
+  position: absolute;
+  top: 60px;
+  right: -100%;
+  height: 100%;
+  width: 30%;
+  background-color: white;
+  font-size: 1.5rem;
+  list-style: none;
+  z-index: 9;
+  padding: 20px;
+  transition: right 0.3s ease-in-out;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-section.active {
+  right: 0;
+}
+
+li {
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+li:hover {
+  border-bottom: 2px black solid;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(243, 234, 234);
+  color: darkslategrey;
+  border-bottom: 0.25rem grey dashed;
+  min-height: 100vh;
+}
+
+.link,
+.action-link {
+  background-color: gray;
+  color: white;
+  border: 0;
+  border-radius: 10%;
+  height: 2rem;
+  font-size: 1rem;
+  width: 7.5rem;
+  cursor: pointer;
+}
+
+.link:hover,
+.action-link:hover {
+  background-color: darkgray;
+}
+
+.title-element {
+  font-size: 1.45rem;
+}
+
+/* Sections styling */
+.section-1 {
+  padding: 15rem 5rem;
+}
+
+.section-2,
+.section-3,
+.section-4,
+.section-5,
+.section-6 {
+  padding: 5rem 3rem;
+}
+
+/* Second section */
+#display-shape {
+  height: 15rem;
+  width: 30rem;
+  background-color: grey;
+}
+
+#second-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35rem;
+  font-size: 1.5rem;
+}
+
+/* Third section */
+#third-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35rem;
+  font-size: 1.5rem;
+}
+
+/* Fourth section */
+.section-4 {
+  min-height: 40rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.section-4 > select {
+  display: block;
+  width: 15rem;
+  height: 3rem;
+  margin-bottom: 2rem;
+}
+
+.section-4 > div {
+  background-color: gray;
+  color: white;
+  padding: 2rem;
+  margin: 1rem;
+  flex-basis: calc(20% - 2rem);
+}
+
+.title-card-1,
+.title-card-2,
+.title-card-3,
+.title-card-4,
+.title-card-5 {
+  height: 15rem;
+  width: 100%;
+}
+
+/* Fifth section */
+.section-5 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+}
+
+.action-card {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  min-height: 20rem;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: gray;
+}
+
+.white-text-content {
+  color: white;
+}
+
+/* Sixth section */
+.section-6 {
+  height: 80%;
+}
+
+#master-square {
+  background-color: lightgray;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+#black-square-section,
+#white-square-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 70rem;
+  height: 26rem;
+  position: absolute;
+  z-index: 2;
+}
+
+#black-square-section {
+  margin-left: -1rem;
+  margin-top: -1rem;
+}
+
+.black-square {
+  background-color: darkgray;
+  width: 18rem;
+  height: 12rem;
+}
+
+#square-two {
+  align-self: center;
+}
+
+#square-three {
+  align-self: flex-end;
+}
+
+#white-square-section {
+  bottom: 2rem;
+  right: 0rem;
+  z-index: 0;
+}
+
+.white-square {
+  background-color: white;
+  width: 18rem;
+  height: 12rem;
+}
+
+/* Footer */
+.footer {
+  background-color: gray;
+  padding: 1rem 3rem;
+  text-align: center;
+  color: white;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+  section {
+    padding: 2rem 1rem;
+    flex-direction: column;
+  }
+
+  .nav-section {
+    width: 100%;
+  }
+
+  .section-2,
+  .section-3,
+  .section-4,
+  .section-5,
+  .section-6 {
+    padding: 2rem 1rem;
+  }
+
+  .section-5 {
+    grid-template-columns: 1fr;
+  }
+
+  .section-4 > div {
+    flex-basis: calc(100% - 2rem);
+  }
+
+  #black-square-section,
+  #white-square-section {
+    width: 100%;
+    height: auto;
+  }
+
+  .black-square,
+  .white-square {
+    width: 30%;
+    height: 10rem;
+  }
+}
