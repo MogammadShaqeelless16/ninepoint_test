@@ -325,14 +325,6 @@ header:hover img {
     width: 100%;
   }
 
-  .section-2,
-  .section-3,
-  .section-4,
-  .section-5,
-  .section-6 {
-    padding: 2rem 1rem;
-  }
-
   .section-5 {
     grid-template-columns: 1fr;
   }
