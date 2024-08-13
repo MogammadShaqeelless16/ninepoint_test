@@ -75,7 +75,7 @@ li:hover {
   background-color: gray;
   color: white;
   border: 0;
-  border-radius: 10%;
+  border-radius: 10px;
   height: 2rem;
   font-size: 1rem;
   width: 7.5rem;
@@ -144,28 +144,45 @@ li:hover {
 
 /* Third section */
 /* Section 3 styling */
+/* Section 3 styling */
 .section-3 {
   display: flex;
-  align-items: center;
+  align-items: center; /* Vertically centers items in the section */
   padding: 20px;
   background-color: #eaeaea; /* Optional: Adds background color for better visibility */
-  height: 100vh;
 }
 
 #third-content {
-  flex: 2; /* Takes up available space on the left */
-  margin-right: 20px; /* Adds space between content and shape */
+  flex: 1; /* Takes up 50% of the available width */
+  margin-right: 20px; /* Adds space between the text content and the shape */
 }
 
 #display-shape {
-  flex: 1; /* Takes up available space on the right */
-  background-color: #969696; /* Optional: Add background color to visualize the shape */
+  flex: 1; /* Takes up 50% of the available width */
+  background-color: #ddd; /* Optional: Add background color to visualize the shape */
   /* Add any other styling needed for your shape */
 }
 
-#third-content h4, #third-content h3, #third-content p {
-  margin: 0 0 10px; /* Adds space below each element */
+.text-content {
+  margin-bottom: 20px; /* Adds space below the text content */
 }
+
+/* Ensure button is styled and positioned correctly */
+.link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Adjust as needed */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.link:hover {
+  background-color: #0056b3; /* Adjust as needed */
+}
+
 
 
 /* Fourth section */
