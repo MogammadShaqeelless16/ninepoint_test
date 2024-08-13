@@ -380,6 +380,48 @@ header:hover img {
 }
 
 
+/* Default state: menu is hidden */
+.nav-section {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  height: 100vh;
+  width: 100%;
+  max-width: 250px;
+  background-color: white;
+  font-size: 1.5rem;
+  list-style: none;
+  z-index: 9;
+  padding: 20px;
+  transition: right 0.3s ease-in-out;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+.nav-section.show {
+  right: 0;
+}
+
+#menu-toggle {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
 /* Media Queries for Mobile Responsiveness */
 @media (max-width: 768px) {
   section {
