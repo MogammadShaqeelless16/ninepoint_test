@@ -238,6 +238,7 @@ li:hover {
 
 
 /* Section 4 styling */
+/* Section 4 styling */
 .section-4 {
   padding: 20px;
   background-color: #f9f9f9; /* Optional: Adds background color for better visibility */
@@ -317,6 +318,11 @@ p {
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
+}
+
+/* Hide the overlay initially */
+.hidden {
+  display: none;
 }
 
 
