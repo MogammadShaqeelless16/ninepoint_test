@@ -99,7 +99,7 @@ li:hover {
   justify-content: center;
   text-align: center;
   padding: 20px;
-  background-color: #f9f9f9; /* Optional: Adds a background color for contrast */
+  background-color: #e2e2e2; /* Optional: Adds a background color for contrast */
   height: 100vh; /* Optional: Makes sure the section takes full viewport height */
 }
 
