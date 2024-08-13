@@ -15,5 +15,23 @@ document.addEventListener("DOMContentLoaded", () => {
     // Add event listeners for menu and close icons
     menuIcon.addEventListener("click", toggleMenu);
     closeIcon.addEventListener("click", toggleMenu);
-  });
+
+});
   
+
+document.addEventListener('DOMContentLoaded', function () {
+    const selectElement = document.getElementById('options');
+    const overlay = document.getElementById('overlay');
+    const overlayText = document.getElementById('overlay-text');
+    const closeButton = document.getElementById('close-overlay');
+    
+    selectElement.addEventListener('change', function () {
+      const selectedOption = selectElement.options[selectElement.selectedIndex].text;
+      overlayText.textContent = selectedOption;
+      overlay.classList.remove('hidden'); // Show the overlay
+    });
+    
+    closeButton.addEventListener('click', function () {
+      overlay.classList.add('hidden'); // Hide the overlay
+    });
+});
