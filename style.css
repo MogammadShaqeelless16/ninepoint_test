@@ -219,17 +219,17 @@ li:hover {
 
 .section-4 > select {
   display: block;
+  position: relative;
   width: 15rem;
   height: 3rem;
-  margin-bottom: 2rem;
+  margin: 0 auto;
 }
 
 .section-4 > div {
+  position: absolute;
   background-color: gray;
   color: white;
   padding: 2rem;
-  margin: 1rem;
-  flex-basis: calc(20% - 2rem);
 }
 
 .title-card-1 {
@@ -264,18 +264,6 @@ li:hover {
   right: 35rem;
   top: 112rem;
 }
-
-/* Overlay adjustments */
-.overlay-content {
-  padding: 20px;
-  border-radius: 5px;
-}
-
-.close-button {
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-
 /* Fifth section */
 .section-5 {
   display: grid;
