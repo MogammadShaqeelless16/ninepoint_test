@@ -69,16 +69,6 @@ li:hover {
   border-bottom: 2px black solid;
 }
 
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: #e2e2e2;
-  color: darkslategrey;
-  border-bottom: 0.25rem grey dashed;
-  min-height: 100vh;
-}
 
 .link,
 .action-link {
