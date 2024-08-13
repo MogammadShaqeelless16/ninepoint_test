@@ -237,40 +237,37 @@ li:hover {
   flex-basis: calc(20% - 2rem);
 }
 
-.title-card-1,
-.title-card-2,
-.title-card-3,
-.title-card-4,
+.title-card-1 {
+  height: 15rem;
+  width: 9rem;
+  left: 10rem;
+}
+
+.title-card-2 {
+  height: 15rem;
+  width: 9rem;
+  right: 5rem;
+}
+
+.title-card-3 {
+  height: 12rem;
+  top: 118rem;
+  width: 15rem;
+  left: 10rem;
+}
+
+.title-card-4 {
+  height: 15rem;
+  width: 18rem;
+  right: 5rem;
+  top: 118rem;
+}
+
 .title-card-5 {
   height: 15rem;
-  width: 100%;
-}
-
-
-/* Section 4 styling */
-/* Section 4 styling */
-/* Adjust .section-4 to center items properly */
-.section-4 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 20px;
-  background-color: #f9f9f9; /* Light background */
-}
-
-/* Ensure consistent padding and margin */
-.section-4 > select {
-  margin-bottom: 2rem;
-  padding: 10px;
-}
-
-.section-4 > div {
-  margin: 1rem;
-  padding: 2rem;
-  background-color: #fff; /* Ensure good contrast with text */
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  width: 18rem;
+  right: 35rem;
+  top: 112rem;
 }
 
 /* Overlay adjustments */
