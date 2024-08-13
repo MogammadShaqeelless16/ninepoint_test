@@ -129,9 +129,8 @@ li:hover {
 }
 
 #display-shape {
-  height: 15rem;
-  width: 30rem;
-  background-color: grey;
+  height: 80vh;
+  width: 50vh;
 }
 
 #second-content {
@@ -161,7 +160,7 @@ li:hover {
 
 #display-shape {
   flex: 1; /* Takes up available space on the right */
-  background-color: #ddd; /* Optional: Add background color to visualize the shape */
+  background-color: #969696; /* Optional: Add background color to visualize the shape */
   /* Add any other styling needed for your shape */
 }
 
