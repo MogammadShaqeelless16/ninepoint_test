@@ -239,92 +239,40 @@ li:hover {
 
 /* Section 4 styling */
 /* Section 4 styling */
+/* Adjust .section-4 to center items properly */
 .section-4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
   padding: 20px;
-  background-color: #f9f9f9; /* Optional: Adds background color for better visibility */
+  background-color: #f9f9f9; /* Light background */
 }
 
-select {
+/* Ensure consistent padding and margin */
+.section-4 > select {
+  margin-bottom: 2rem;
   padding: 10px;
-  font-size: 1rem;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  margin-bottom: 20px; /* Adds space below the dropdown */
 }
 
-.title-card-1, .title-card-2, .title-card-3, .title-card-4, .title-card-5 {
-  background-color: #fff;
+.section-4 > div {
+  margin: 1rem;
+  padding: 2rem;
+  background-color: #fff; /* Ensure good contrast with text */
   border: 1px solid #ddd;
   border-radius: 5px;
-  padding: 15px;
-  margin-bottom: 10px; /* Adds space between cards */
 }
 
-.title-card-1 {
-  /* Specific styles for card 1 */
-}
-
-.title-card-2 {
-  /* Specific styles for card 2 */
-}
-
-.title-card-3 {
-  /* Specific styles for card 3 */
-}
-
-.title-card-4 {
-  /* Specific styles for card 4 */
-}
-
-.title-card-5 {
-  /* Specific styles for card 5 */
-}
-
-.title-element {
-  font-size: 1.2rem;
-  margin-bottom: 10px; /* Adds space below the title */
-}
-
-p {
-  font-size: 1rem;
-}
-
-/* Overlay styles */
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000; /* Ensures it is above other content */
-}
-
+/* Overlay adjustments */
 .overlay-content {
-  background-color: #fff;
   padding: 20px;
   border-radius: 5px;
-  position: relative;
 }
 
 .close-button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: none;
-  border: none;
   font-size: 1.5rem;
   cursor: pointer;
 }
-
-/* Hide the overlay initially */
-.hidden {
-  display: none;
-}
-
 
 /* Fifth section */
 .section-5 {
