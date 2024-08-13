@@ -125,6 +125,7 @@ li:hover {
   align-items: center;
   padding: 20px;
   background-color: #f4f4f4; /* Optional: Adds background color for better visibility */
+  height: 100vh;
 }
 
 #display-shape {
@@ -150,6 +151,7 @@ li:hover {
   align-items: center;
   padding: 20px;
   background-color: #eaeaea; /* Optional: Adds background color for better visibility */
+  height: 100vh;
 }
 
 #third-content {
